@@ -70,7 +70,6 @@ arr = TrackedArray(arr)
 #         current_position = current_position - 1
 #     arr[current_position] = current_value
 # timer_delta = time.perf_counter() - timer_start
-# print(arr)
 
 ##################################################
 ############# Sort 2 - Quick Sort ################
@@ -104,7 +103,7 @@ time_delta = time.perf_counter() - time_start
 ##################################################
 
 print(f"-------- {sorter_name} Sort --------")
-print(f"Array Sorted in {time_delta*1E3:.1f} ms") # converts nanoseconds to milliseconds
+print(f"Array Sorted in {time_delta*1E3:.1f} ms") # converts seconds to milliseconds
 
 fig, ax = plt.subplots() # Retrieves the figure and axes to edit
 # bar(array_indexes_X, array_values_Y, aligns left edge of bars to x positions, width of bars - default=0.8)
