@@ -8,4 +8,4 @@ Dependencies: matplotlib, numpy
 
 
 ![sort_1000](https://user-images.githubusercontent.com/19438135/144724094-b9f8c96b-70f1-4bf9-b511-bc8cdb4cfc4d.gif)
-
+gif created with ffmpeg (http://www.ffmpeg.org/)
